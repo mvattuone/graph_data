@@ -1,4 +1,4 @@
 graph_data
 ==========
 
-Trying to take eval&#39;d data and convert it into a format that works with flot.js.  This might be a big waste of time.
+Displaying the rate of dropoff on a voter registration form to assess the usability of various form factors.  Utilizing flot.js to display this data.

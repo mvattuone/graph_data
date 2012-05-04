@@ -44,7 +44,9 @@ var progress_singlepage = eval({phone_type:15,last_name:36,home_address:36,id_nu
 
 	
 	for(i=0;i<=formFields.length;i++) {
-		single_data
+		for (var prop in object) {
+		if(object.hasOwnProperty(prop)) { keys.push([prop, object[prop]]);}
+	}
 	}
 			  
 						  
